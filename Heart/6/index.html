@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <audio id="audio" src="I_Like_You_So_Much_Youll_Know_It.mp3"></audio>
+
+    <!-- 星空html -->
+    <!-- <div> -->
+    <div class="container2">
+      <div class="content">
+        <canvas id="universe"></canvas>
+      </div>
+    </div>
+    <!-- </div> -->
+    <div class="title">
+      <!-- EDIT HERE -->
+      <h3  class="STARDUST1">2024</h3>
+      <h1 class="STARDUST2">Vinh &amp; Hong</h1>
+      <h3 class="STARDUST3">L O V E <strong>❤</strong> Y O U</h3>
+      <img class="img" src="https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/350977376_925640051883394_8426456791573784130_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeERWdDvWt6su5xw4WTOSJWD6l0DZGw-se_qXQNkbD6x73_zDyw-xDnwMTfnYQ96TdH1moksn8w25F_z6MTXNuok&_nc_ohc=yf1Yp3UUBvwAX_kRtOY&_nc_oc=AdhzDBEsejtMFS6cAlGK2yuQ9QS_yeUA4xE0wfFQ2Zv0FEkWCCn4j1kZj_DqZrLy2xU&_nc_ht=scontent.fhan4-3.fna&oh=00_AfBiDGBg1BfXBw_eoza3NUU2lL3p4Zy1s5OTzAq_cih3hA&oe=660F32C5" alt="InsertImageHear" />
+      <canvas onclick="playAudio()" id="pinkboard"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/particle.js"></script>
+    <script src="js/universe.js"></script>
+
+    <script>
+      function playAudio() {
+          var audio = document.getElementById("audio");
+          audio.play();
+      }
+    </script>
+
+  </body>
+</html>
